@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class Menu : Form
+    public partial class Inicial : Form
     {
-        public Menu()
+        public Inicial()
         {
             InitializeComponent();
         }
@@ -37,6 +37,16 @@ namespace Login
                     e.Cancel = true;    
                 }
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

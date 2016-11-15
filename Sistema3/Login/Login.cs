@@ -23,7 +23,7 @@ namespace Login
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Menu O = new  Menu();
+            Inicial O = new  Inicial();
             O.Show();
             logueado = true;
             if (logueado == true)
