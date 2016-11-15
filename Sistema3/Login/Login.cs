@@ -23,14 +23,15 @@ namespace Login
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Inicial O = new  Inicial();
-            O.Show();
+           
             logueado = true;
             if (logueado == true)
             {
 
+                this.Visible = false;
                 MessageBox.Show("Bienvendio Administrador", "Mensaje", MessageBoxButtons.OK);
-                this.Close();
+                Inicial O = new Inicial();
+                O.Show();
 
             }
             else
