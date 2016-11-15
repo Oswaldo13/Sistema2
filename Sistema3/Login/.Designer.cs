@@ -43,7 +43,7 @@
             this.EfectivoIn.BackColor = System.Drawing.Color.Gainsboro;
             this.EfectivoIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EfectivoIn.ForeColor = System.Drawing.Color.SteelBlue;
-            this.EfectivoIn.Location = new System.Drawing.Point(244, 22);
+            this.EfectivoIn.Location = new System.Drawing.Point(408, 12);
             this.EfectivoIn.Multiline = true;
             this.EfectivoIn.Name = "EfectivoIn";
             this.EfectivoIn.Size = new System.Drawing.Size(161, 31);
@@ -55,7 +55,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.MintCream;
             this.textBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox1.Location = new System.Drawing.Point(213, 74);
+            this.textBox1.Location = new System.Drawing.Point(367, 71);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(238, 58);
@@ -64,7 +64,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(254, 165);
+            this.button1.Location = new System.Drawing.Point(433, 165);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(172, 51);
             this.button1.TabIndex = 2;
@@ -74,9 +74,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Login.Properties.Resources.dinero;
-            this.pictureBox1.Location = new System.Drawing.Point(213, 165);
+            this.pictureBox1.Location = new System.Drawing.Point(377, 166);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(64, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -85,9 +85,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.White;
             this.pictureBox2.Image = global::Login.Properties.Resources.eleventa_punto_de_venta;
-            this.pictureBox2.Location = new System.Drawing.Point(1, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(37, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(132, 78);
+            this.pictureBox2.Size = new System.Drawing.Size(245, 194);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
