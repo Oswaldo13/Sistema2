@@ -170,11 +170,11 @@
             this.lbl.ForeColor = System.Drawing.Color.White;
             this.lbl.Location = new System.Drawing.Point(12, 146);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(790, 20);
+            this.lbl.Size = new System.Drawing.Size(779, 20);
             this.lbl.TabIndex = 126;
-            this.lbl.Text = "PRODUCTOS                                                                        " +
+            this.lbl.Text = "PRODUCTO                                                                         " +
     "                                                                                " +
-    "                  ";
+    "                 ";
             // 
             // Modificar
             // 
