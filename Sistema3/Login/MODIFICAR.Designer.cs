@@ -1,6 +1,6 @@
 ﻿namespace Login
 {
-    partial class MODIFICAR
+    partial class Modificar
     {
         /// <summary>
         /// Required designer variable.
@@ -176,7 +176,7 @@
     "                                                                                " +
     "                  ";
             // 
-            // MODIFICAR
+            // Modificar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -194,7 +194,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "MODIFICAR";
+            this.Name = "Modificar";
             this.Text = "MODIFICAR";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
