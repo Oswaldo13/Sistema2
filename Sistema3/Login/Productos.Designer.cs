@@ -30,6 +30,7 @@
         {
             this.NUEVO = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -49,14 +50,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.MODIFICAR = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.ELIMINAR = new System.Windows.Forms.Button();
             this.SALIR = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.lbl = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -100,6 +100,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PRODUCTO";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(110, 258);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(164, 29);
+            this.textBox7.TabIndex = 21;
             // 
             // label9
             // 
@@ -275,20 +283,10 @@
             this.button2.Text = "VENTAS";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Silver;
-            this.button3.Location = new System.Drawing.Point(491, 25);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(82, 27);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "CLIENTES";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Silver;
-            this.button4.Location = new System.Drawing.Point(642, 25);
+            this.button4.Location = new System.Drawing.Point(577, 25);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(82, 27);
             this.button4.TabIndex = 7;
@@ -325,13 +323,32 @@
             this.SALIR.Text = "SALIR";
             this.SALIR.UseVisualStyleBackColor = true;
             // 
-            // textBox7
+            // label1
             // 
-            this.textBox7.Location = new System.Drawing.Point(110, 258);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(164, 29);
-            this.textBox7.TabIndex = 21;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Gold;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(12, 104);
+            this.label1.MinimumSize = new System.Drawing.Size(30, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(166, 18);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "NUEVO PRODUCTO";
+            // 
+            // lbl
+            // 
+            this.lbl.AutoSize = true;
+            this.lbl.BackColor = System.Drawing.Color.DarkOrange;
+            this.lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl.ForeColor = System.Drawing.Color.White;
+            this.lbl.Location = new System.Drawing.Point(-3, 79);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(779, 20);
+            this.lbl.TabIndex = 127;
+            this.lbl.Text = "PRODUCTO                                                                         " +
+    "                                                                                " +
+    "                 ";
             // 
             // pictureBox1
             // 
@@ -343,28 +360,16 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gold;
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(12, 97);
-            this.label1.MinimumSize = new System.Drawing.Size(30, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 13);
-            this.label1.TabIndex = 29;
-            this.label1.Text = "NUEVO PRODUCTO";
-            // 
             // Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 461);
+            this.Controls.Add(this.lbl);
             this.Controls.Add(this.SALIR);
             this.Controls.Add(this.ELIMINAR);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.MODIFICAR);
             this.Controls.Add(this.groupBox1);
@@ -399,7 +404,6 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Button MODIFICAR;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label9;
@@ -412,5 +416,6 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button SALIR;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl;
     }
 }
